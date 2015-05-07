@@ -3,7 +3,7 @@ class Fixnum
     def printVerbalName
         case self
         when 1
-             "One"
+             puts "One"
         when 2
             "Two"
         when 3
@@ -36,3 +36,4 @@ nums.each do |num|
 end
 
 1.printVerbalName
+puts 2.printVerbalName
