@@ -32,7 +32,7 @@ puts "Begin Count 1:10"
 puts
 
 nums.each do |num|
-    puts "#{num} is called #{num.printVerbalName}"   
+    puts "#{num} is called " num.printVerbalName 
 end
 
 1.printVerbalName
